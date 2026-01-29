@@ -24,7 +24,8 @@ function addname(){
       name.addEventListener('click', function (){
       const userName = document.getElementById('username').value;
       const heading = document.getElementById('name');
-      heading.innerText = userName;
+      heading.innerText = ", " + userName;
       });
 }
+
 
